@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f8f4">
+    <meta name="description" content="Software engineering portfolio, projects, and contact information.">
+    <title>Your Name | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=5">
+    <script src="content.js?v=8" defer></script>
+    <script src="app.js?v=7" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Your Name, home"><span class="wordmark-mark" aria-hidden="true">&lt;/&gt;</span><span data-name>Your Name</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-contact" href="contact.html">Contact <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span><span data-role>Aspiring Software Engineer</span><span class="eyebrow-divider">/</span><span data-location>Based in your city</span></p>
+          <h1 id="hero-title">I build useful things <span>with code.</span></h1>
+          <p class="hero-intro" data-intro>I'm Your Name, an aspiring software engineer who enjoys turning thoughtful ideas into reliable, accessible software.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">See my projects <span aria-hidden="true">↓</span></a>
+            <a class="text-link" data-github-link href="https://github.com/">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="text-link" data-linkedin-link href="https://linkedin.com/">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="hero-note"><span class="status-dot" aria-hidden="true"></span><span data-availability>Open to internships and opportunities</span></p>
+        </div>
+        <div class="code-window" aria-label="A code editor showing a developer profile">
+          <div class="code-titlebar"><div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div><span>developer.ts</span><span class="window-language">TS</span></div>
+          <pre class="code-content"><code><span class="code-muted">01</span> <span class="code-purple">const</span> developer = {
+<span class="code-muted">02</span>   name: <span class="code-string">"<span data-code-name>Your Name</span>"</span>,
+<span class="code-muted">03</span>   focus: <span class="code-string">"building for the web"</span>,
+<span class="code-muted">04</span>   mindset: [
+<span class="code-muted">05</span>     <span class="code-string">"curious"</span>,
+<span class="code-muted">06</span>     <span class="code-string">"thoughtful"</span>,
+<span class="code-muted">07</span>     <span class="code-string">"always learning"</span>
+<span class="code-muted">08</span>   ],
+<span class="code-muted">09</span>   currently: <span class="code-green">"shipping projects"</span>
+<span class="code-muted">10</span> };</code></pre>
+          <div class="code-status"><span><i></i> Ready to build</span><span>UTF-8 · Spaces: 2</span></div>
+        </div>
+        <div class="hero-index" aria-hidden="true">PORTFOLIO · <span data-year>2026</span></div>
+      </section>
+
+      <section class="experience-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div><p class="eyebrow section-kicker">WHERE I'VE CONTRIBUTED</p><h2 id="experience-title">Experience<span class="heading-period">.</span></h2></div>
+            <p class="section-aside">Production software, open-source work, and helping other students grow.</p>
+          </div>
+          <div class="experience-layout">
+            <div class="experience-list" id="experience-list" aria-live="polite"></div>
+            <aside class="education-panel" aria-labelledby="education-title">
+              <p class="eyebrow section-kicker">EDUCATION</p>
+              <h3 id="education-title" data-school>University at Albany</h3>
+              <p class="education-degree" data-degree>B.S. in Computer Science</p>
+              <p class="education-minor" data-minor>Minor in Web Development and Mathematics</p>
+              <p class="education-meta"><span data-education-location>Albany, New York</span><span data-education-dates>August 2023 – May 2027</span></p>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <div class="section-wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow section-kicker">THINGS I'VE BUILT</p>
+              <h2 id="work-title">Featured projects<span class="heading-period">.</span></h2>
+            </div>
+            <p class="section-aside">A few problems explored through code, iteration, and a lot of learning.</p>
+          </div>
+          <div class="project-grid" id="project-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="section-wrap skills-layout">
+          <div class="skills-heading"><p class="eyebrow section-kicker">TOOLS I WORK WITH</p><h2 id="skills-title">Learning by building<span class="heading-period">.</span></h2><p class="skills-intro">Technologies I use today and keep getting better at.</p></div>
+          <div class="skills-list" id="skills-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="recommendations-section" id="recommendations" aria-labelledby="recommendations-title">
+        <div class="section-wrap recommendations-layout">
+          <div class="recommendations-heading"><p class="eyebrow section-kicker">RECOMMENDATIONS</p><h2 id="recommendations-title">Good words from good people<span class="heading-period">.</span></h2><p class="recommendation-intro">Letters and notes from people I've learned or worked alongside.</p></div>
+          <div class="recommendation-list" id="recommendation-list" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <div class="section-wrap about-layout">
+          <div class="about-label"><span class="about-mark" aria-hidden="true">&lt;/&gt;</span><span>A LITTLE ABOUT ME</span></div>
+          <div class="about-copy">
+            <h2 id="about-title">A little about <span data-name>Your Name</span><span class="about-period">.</span></h2>
+            <p data-about>I'm growing as an engineer by building projects, learning from feedback, and getting curious about how things work under the hood.</p>
+            <div class="contact-links">
+              <a class="about-link" data-email-link href="mailto:hello@example.com">Email <span data-email>hello@example.com</span></a>
+              <a class="about-link" data-phone-link href="tel:+19148884101">Phone <span data-phone>(914) 888-4101</span></a>
+            </div>
+          </div>
+          <div class="about-meta"><span>OPEN TO OPPORTUNITIES</span><span data-location>Based in your city</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark" aria-hidden="true">&lt;/&gt;</span><span data-name>Your Name</span></a>
+      <p>Designed &amp; built by <span data-name>Your Name</span> <span aria-hidden="true">·</span> <span data-year>2026</span></p>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

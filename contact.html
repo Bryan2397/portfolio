@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f8f4" />
+    <meta
+      name="description"
+      content="Contact Bryan S. Mirtil about software engineering roles, projects, or collaboration."
+    />
+    <title>Contact Bryan S. Mirtil</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=7" />
+    <script src="content.js?v=8" defer></script>
+    <script src="contact.js?v=1" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="index.html" aria-label="Bryan S. Mirtil, home"
+        ><span class="wordmark-mark" aria-hidden="true">&lt;/&gt;</span
+        ><span data-name>Bryan S. Mirtil</span></a
+      >
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html#work">Projects</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#recommendations">Recommendations</a>
+      </nav>
+      <a class="header-contact" href="contact.html" aria-current="page"
+        >Contact</a
+      >
+    </header>
+
+    <main class="contact-main">
+      <section class="contact-heading" aria-labelledby="contact-title">
+        <p class="eyebrow section-kicker">CONTACT</p>
+        <h1 id="contact-title">
+          Let's talk about <span>what you're building.</span>
+        </h1>
+        <p>
+          Have an internship or job opportunity, a project idea, or a question?
+          Send me a note and I’ll get back to you.
+        </p>
+      </section>
+
+      <div class="contact-layout">
+        <aside class="contact-details" aria-label="Direct contact details">
+          <p class="eyebrow section-kicker">DIRECT CONTACT</p>
+          <a data-email-link href="mailto:bryan.mirtil@gmail.com"
+            ><span data-email>bryan.mirtil@gmail.com</span></a
+          >
+          <a data-phone-link href="tel:+19148884101"
+            ><span data-phone>(914) 888-4101</span></a
+          >
+          <p class="contact-location" data-location>Elmsford, New York</p>
+        </aside>
+
+        <section class="contact-form-panel" aria-label="Send a message">
+          <form class="contact-form" id="contact-form">
+            <div class="contact-fields">
+              <div class="contact-field">
+                <label for="visitor-name">Your name</label>
+                <input
+                  id="visitor-name"
+                  name="visitorName"
+                  autocomplete="name"
+                  maxlength="100"
+                  required
+                />
+              </div>
+              <div class="contact-field">
+                <label for="visitor-email">Your email</label>
+                <input
+                  id="visitor-email"
+                  name="visitorEmail"
+                  type="email"
+                  autocomplete="email"
+                  maxlength="254"
+                  required
+                />
+              </div>
+              <div class="contact-field contact-field-wide">
+                <label for="message-subject">Subject</label>
+                <input
+                  id="message-subject"
+                  name="subject"
+                  maxlength="160"
+                  required
+                />
+              </div>
+              <div class="contact-field contact-field-wide">
+                <label for="message-body">Message</label>
+                <textarea
+                  id="message-body"
+                  name="message"
+                  rows="7"
+                  maxlength="5000"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <div class="contact-submit-row">
+              <button class="button button-dark" type="submit">
+                Open email draft <span aria-hidden="true">↗</span>
+              </button>
+              <p
+                class="contact-status"
+                id="contact-status"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </div>
+          </form>
+          <p class="contact-form-note">
+            Your message opens in your email app; this site doesn’t store or
+            send form submissions.
+          </p>
+          <noscript
+            ><p class="contact-form-note">
+              JavaScript is required for the form. Email Bryan directly at
+              <a href="mailto:bryan.mirtil@gmail.com">bryan.mirtil@gmail.com</a
+              >.
+            </p></noscript
+          >
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer section-wrap">
+      <a class="wordmark footer-wordmark" href="index.html"
+        ><span class="wordmark-mark" aria-hidden="true">&lt;/&gt;</span
+        ><span data-name>Bryan S. Mirtil</span></a
+      >
+      <p>
+        Designed &amp; built by <span data-name>Bryan S. Mirtil</span>
+        <span aria-hidden="true">·</span> <span data-year>2026</span>
+      </p>
+      <a class="back-to-top" href="index.html">Back to portfolio ↑</a>
+    </footer>
+  </body>
+</html>
